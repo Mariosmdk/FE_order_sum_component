@@ -1,0 +1,23 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+html{
+    height: 100%;
+}
+.wrapper{
+    background-image: url(/assets/images/pattern-background-desktop.svg);
+    background-repeat: none;
+    background-size: contain;
+    height: 500px;
+
+}
+.wrapper-main{
+    margin: auto;
+    background-color: rgb(148, 148, 148);
+    border-radius: 20px;
+    width: 450px;
+    
+}
+.hero img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
