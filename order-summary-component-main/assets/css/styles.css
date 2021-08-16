@@ -36,7 +36,7 @@ html{
     font-weight: 500;
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1920px) {
  
 .wrapper-main{
     margin: 0 auto;
