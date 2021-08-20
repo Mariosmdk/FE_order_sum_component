@@ -68,7 +68,7 @@ html{
     padding: 30px 0 20px 0;
 }
 .main-text p{
-    color: (--Desaturated-blue);
+    color: var(--Desaturated-blue);
     font-size: 16px;
     padding: 20px 60px;
     line-height: 1.5;
@@ -86,8 +86,12 @@ html{
 .current-plan{
     margin: 0 40px 0 -40px;
 }
+.current-plan h2{
+    font-size: 16px;
+    padding: 0 60px;
+}
 .current-plan p{
-    color: (--Desaturated-blue);
+    color: var(--Desaturated-blue);
     font-size: 16px;
     padding: 0 60px;
 }
@@ -95,7 +99,7 @@ html{
     background: none;
     border: none;
     color: var(--Bright-blue);
-    font-size: 16px;
+    font-size: 14px;
     text-decoration: underline;
 }
 .change-plan:hover{
@@ -127,7 +131,7 @@ html{
     font-size: 16px;
     background: none;
     border: none;
-    color: black;
+    color: var(--Desaturated-blue);
     opacity: 0.7;
     margin: 10px 0;
 }
@@ -143,6 +147,9 @@ html{
         background-size: cover;
         height: 100%;
     }
+    .hero .hero-img{
+        margin-top: 50px ;
+    }
     .wrapper-main{
         margin: 0 auto;
         border-radius: 20px;
@@ -155,7 +162,11 @@ html{
         width: 330px;
     }
     .current-plan{
-        margin: 0 0px 0 -30px;
+        margin: 0 0 0 -30px;
+    }
+    .current-plan h2{
+        font-size: 14px;
+        padding: 0 40px;
     }
     .current-plan p{
         font-size: 14px;
